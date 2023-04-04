@@ -9,6 +9,8 @@ export default function Home() {
         <Link href="/hello">Hello See Phones....</Link>
         <br />
         <Link href="/dashboard">Go To Dashboard....</Link>
+        <br />
+        <Link href="/setting">Go To Setting....</Link>
       </h3>
     </main>
   );
