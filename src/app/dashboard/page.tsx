@@ -5,9 +5,9 @@ const Dashboard = () => {
   return (
     <div className={style.main}>
       <h1>Welcome to Dashboard</h1>
-      <Link href="/dashboard/about">
+      <a href="/dashboard/about">
         <p className={style.description}>Go to next component ....</p>
-      </Link>
+      </a>
     </div>
   );
 };

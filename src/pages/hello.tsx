@@ -1,4 +1,4 @@
-import styles from "../app/page.module.css";
+// import styles from "../app/setting/page.module.css";
 
 interface HelloProps {
   PhoneData: Array<any>;
@@ -10,7 +10,7 @@ const Hello = ({ PhoneData }: HelloProps) => {
       {PhoneData.map((item: any) => {
         return (
           <div key={item.id}>
-            <h1 className={styles.title}>{item.title}</h1>
+            <h1>{item.title}</h1>
             <p>{item.description}</p>
             <p>$ {item.price}</p>
           </div>
