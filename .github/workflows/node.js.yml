@@ -1,7 +1,0 @@
-name: hello-anish
-'on': push
-jobs:
-  runs-on: ubuntu-latest
-  steps:
-    my-job: my-step
-    run: echo "Hello Anish"

@@ -1,0 +1,22 @@
+name: simplePipeline
+on: 
+ push:
+  branches: ["main"]
+job:
+  lintTest: 
+     name: Lint
+     runs-on: ubuntu-latest
+     steps:
+        uses: actions/checkout@v2
+      - name: Install Depandencies
+        run: 
+         echo "Running Depandencies ...."
+         npm install
+      - name: Run Linting
+        run: 
+         echo "Running Linting ...."
+         npm run lint
+        env:
+          CI: true
+
+
