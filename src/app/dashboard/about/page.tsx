@@ -1,13 +1,15 @@
+/** @format */
 
+import Link from "next/link";
 import style from "../../page.module.css";
 
 const About = () => {
   return (
     <div className={style.main}>
       <h1>Welcome to About</h1>
-      <a href="/">
+      <Link href="/">
         <p className={style.description}>Back To Home ....</p>
-      </a>
+      </Link>
     </div>
   );
 };
